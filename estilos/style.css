@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+html {
+    background-color: rgb(222, 222, 222);
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.imagemDeCapa {
+    width: 100%;
+}
+
+.fotoPerfil {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 6px solid white;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.boxPerfil {
+    display: flex;
+    justify-content: center;
+}
+
+.imagensCabecalho div:first-child {
+    position: static;
+}
+
+.imagensCabecalho div:last-child {
+    position: static;
+    margin-top: -115px;
+    margin-left: 20px;
+}
+
+.textosCabecalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tituloNome {
+    margin-top: 20px;
+    font-size: 60px;
+    color: rgb(70, 70, 70);
+    font-weight: bold;
+}
+
+.boxSubtitulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subtituloNome {
+    margin-top: 20px;
+    font-size: 30px;
+    color: rgb(150, 150, 150);
+}
+
+.subtituloNome2 {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(150, 150, 150);
+}
+
+.cardsInformacaoSection {
+    /* margin: 0px 50px 0px 50px; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+.cardsInformacao {
+    margin-top: 50px;
+    color: gray;
+    background-color: white;
+    width: 400px;
+    /* height: 300px; */
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cardsInformacao h4 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.cardsInformacao p {
+    margin-top: 20px;
+}
+
+
+.cardsInformacao a {
+    margin-top: 15px;
+    text-decoration: none;
+    color: gray;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: lightgrey;
+}
+
+.cardsInformacao a:hover {
+    color: rgb(60, 69, 70);
+    font-weight: bold;
+    box-shadow: rgba(99, 99, 99, 0.2) 2px 4px 10px 2px;
+    background-color: lightgray;
+
+}
+
+
+
+
+
+footer {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttonsSocial {
+    width: 40px;
+    height: 40px;
+    margin: 0px 15px 0px 15px;
+    filter: grayscale(1);
+}
+
+.buttonsSocial:hover {
+    filter: grayscale(0);
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    .imagemDeCapa {
+        width: auto;
+        height: 250px;
+    }
+
+    .fotoPerfil {
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        border: 6px solid white;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .imagensCabecalho div:first-child {
+        position: static;
+    }
+
+    .imagensCabecalho div:last-child {
+        position: static;
+        margin-top: -100px;
+        margin-left: 20px;
+    }
+
+    .textosCabecalho {
+        scale: 0.8;
+    }
+
+    .cardsInformacaoSection {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
