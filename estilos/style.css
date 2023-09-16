@@ -204,4 +204,9 @@ footer p {
         margin-left: 30px;
         margin-right: 30px;
     }
+
+    .tituloNome {
+        font-size: 50px;
+    }
+
 }
